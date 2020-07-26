@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="09ff3ff0830e4d538e8a7ba8ff49cdbf" Name="Diagram1">
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.building_tbl" Width="1.5" PointX="1.5" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.expenditure_tbl" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.fault_tbl" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.message_tbl" Width="1.5" PointX="3.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.notification_tbl" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.payment_tbl" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.permission_tbl" Width="1.5" PointX="3.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.session_tbl" Width="1.5" PointX="3.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.survey_tbl" Width="1.5" PointX="3.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.tenant_payment_tbl" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.tenant_tbl" Width="1.5" PointX="6" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.user_notification_tbl" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.user_permissions_tbl" Width="1.5" PointX="6" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.user_tbl" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeCommitteeDBModel.vote_tbl" Width="1.5" PointX="6" PointY="14.5" IsExpanded="true" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_expenditure_tbl_building_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_message_tbl_building_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_payment_tbl_building_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_session_tbl_building_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_survey_tbl_building_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_tenant_tbl_building_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_fault_tbl_user_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_user_notification_tbl_notification_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_tenant_payment_tbl_payment_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_user_permissions_tbl_permission_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_vote_tbl_survey_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_tenant_payment_tbl_user_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_tenant_tbl_user_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_user_notification_tbl_user_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_user_permissions_tbl_user_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeCommitteeDBModel.FK_vote_tbl_user_tbl" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

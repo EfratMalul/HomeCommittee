@@ -1,0 +1,5 @@
+W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.Entties\bin\Debug\HomeCommittee.Entties.dll
+W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.Entties\bin\Debug\HomeCommittee.Entties.pdb
+W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.Entties\obj\Debug\HomeCommittee.Entties.csprojResolveAssemblyReference.cache
+W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.Entties\obj\Debug\HomeCommittee.Entties.dll
+W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.Entties\obj\Debug\HomeCommittee.Entties.pdb
