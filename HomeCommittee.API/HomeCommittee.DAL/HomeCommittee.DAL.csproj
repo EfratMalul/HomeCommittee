@@ -73,9 +73,11 @@
     <Compile Include="fault_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
+    <Compile Include="MessageDAL.cs" />
     <Compile Include="message_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
+    <Compile Include="NotificationDAL.cs" />
     <Compile Include="notification_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
@@ -86,9 +88,11 @@
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionDAL.cs" />
     <Compile Include="session_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
+    <Compile Include="SurveyDAL.cs" />
     <Compile Include="survey_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
@@ -111,6 +115,7 @@
     <Compile Include="user_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
+    <Compile Include="VoteDAL.cs" />
     <Compile Include="vote_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>

@@ -40,9 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\MessageConverter.cs" />
+    <Compile Include="Converters\NotificationConverter.cs" />
+    <Compile Include="Converters\SessionConverter.cs" />
+    <Compile Include="Converters\SurveyConverter.cs" />
     <Compile Include="Converters\UserConverter.cs" />
+    <Compile Include="Converters\VoteConverter.cs" />
+    <Compile Include="MessageBL.cs" />
+    <Compile Include="NotificationBL.cs" />
+    <Compile Include="SessionBL.cs" />
+    <Compile Include="SurveyBL.cs" />
     <Compile Include="UserBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VoteBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HomeCommittee.DAL\HomeCommittee.DAL.csproj">
