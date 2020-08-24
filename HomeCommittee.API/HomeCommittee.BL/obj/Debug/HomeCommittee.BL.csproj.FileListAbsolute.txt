@@ -10,17 +10,15 @@ W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\proje
 W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.csprojResolveAssemblyReference.cache
 W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.dll
 W:\כתות ו\התמחויות\הנדסאות\אפרת מלול\שנה ב\project\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.pdb
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.BL.dll
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.BL.pdb
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.DAL.dll
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.Entties.dll
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\EntityFramework.dll
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.DAL.pdb
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.DAL.dll.config
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.Entties.pdb
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\EntityFramework.xml
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.csprojAssemblyReference.cache
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.csproj.CoreCompileInputs.cache
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.csproj.CopyComplete
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.dll
-C:\Users\User\Documents\GitHub\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.pdb
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.csprojResolveAssemblyReference.cache
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.dll
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\obj\Debug\HomeCommittee.BL.pdb
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.BL.dll
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.BL.pdb
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.DAL.dll
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.Entties.dll
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\EntityFramework.dll
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.DAL.pdb
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.DAL.dll.config
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\HomeCommittee.Entties.pdb
+I:\HomeCommittee\HomeCommittee\HomeCommittee.API\HomeCommittee.BL\bin\Debug\EntityFramework.xml

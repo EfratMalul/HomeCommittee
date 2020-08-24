@@ -40,10 +40,11 @@ namespace HomeCommittee.DAL
                     db.SaveChanges();
                 }
             }
-            catch(Exception e)
+            catch
             {
-
+                throw;
             }
         }
+
     }
 }

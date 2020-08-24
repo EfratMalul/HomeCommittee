@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuildingDAL.cs" />
     <Compile Include="building_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
@@ -67,9 +68,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Committee.edmx</DependentUpon>
     </Compile>
+    <Compile Include="ExpenditureDAL.cs" />
     <Compile Include="expenditure_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
+    <Compile Include="FaultDAL.cs" />
     <Compile Include="fault_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
@@ -81,6 +84,7 @@
     <Compile Include="notification_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
+    <Compile Include="PaymentDAL.cs" />
     <Compile Include="payment_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
@@ -99,6 +103,7 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
+    <Compile Include="TenantDAL.cs" />
     <Compile Include="tenant_payment_tbl.cs">
       <DependentUpon>Committee.tt</DependentUpon>
     </Compile>
