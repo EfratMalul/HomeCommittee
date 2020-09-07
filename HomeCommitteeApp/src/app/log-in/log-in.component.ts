@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, Validators} from '@angular/forms';
+import {FormControl, Validators, FormGroup} from '@angular/forms';
 import { UserService } from '../service/user.service';
 
 @Component({
@@ -18,11 +18,20 @@ export class LogInComponent implements OnInit {
 
     return this.email.hasError('email') ? 'Not a valid email' : '';
   }
-  constructor(private user:UserService) { }
+
+  fromLogin:FormGroup;
+  constructor(private user:UserService) {
+
+      var name=this.fromLogin.value.name;
+       var password=this.fromLogin.value.password;
+
+   }
+   onSubmit(){
+    this.user.getUserByPasssword(this.fromLogin.value.name,this.fromLogin.value.password);
+   }
 
   ngOnInit(): void {
-    this.user.getUserById()
-
+   
   }
 
 }

@@ -9,9 +9,13 @@ export class UserService {
 
   constructor(private http:HttpClient) { 
 
+    
    }
 
-  getUserById(id):Observable<any>{
-    return this.http.get('http://localhost:65337/api/User/{{id}}');
+  // getUserById(id):Observable<any>{
+  //   return this.http.get('http://localhost:65337/api/User/{{id}}');
+  // }
+  getUserByPasssword(name,password):Observable<any>{
+    return this.http.get('http://localhost:65337/api/User/{{name,password }}')
   }
 }
