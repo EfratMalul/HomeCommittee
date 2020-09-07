@@ -9,9 +9,9 @@ namespace HomeCommittee.Entties
    public class Payment
     {
         public int id { get; set; }
-        public int ? building_id { get; set; }
-        public double ? sum { get; set; }
-        public DateTime ? date_payment { get; set; }
+        public int building_id { get; set; }
+        public double  sum { get; set; }
+        public DateTime  date_payment { get; set; }
 
     }
 }

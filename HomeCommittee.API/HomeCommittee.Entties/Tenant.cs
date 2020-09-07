@@ -11,13 +11,13 @@ namespace HomeCommittee.Entties
         public int id { get; set; }
         public string first_name { get; set; }
         public string last_name { get; set; }
-        public int? floor { get; set; }
+        public int floor { get; set; }
         public string phone { get; set; }
         public string mail { get; set; }
        // public string password { get; set; }
-        public bool ? type { get; set; }
-        public int ? house_num { get; set; }
-        public int ? building_id { get; set; }
+        public bool  type { get; set; }
+        public int  house_num { get; set; }
+        public int  building_id { get; set; }
 
     }
 }

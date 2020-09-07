@@ -3,26 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TenantComponent } from './tenant/tenant.component';
-import { BuildingComponent } from './building/building.component';
-import { UserComponent } from './user/user.component';
-import { PaymentComponent } from './payment/payment.component';
-import { ExpenditureComponent } from './expenditure/expenditure.component';
-import { FaultComponent } from './fault/fault.component';
+
+import { LogInComponent } from './log-in/log-in.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TenantComponent,
-    BuildingComponent,
-    UserComponent,
-    PaymentComponent,
-    ExpenditureComponent,
-    FaultComponent
+    LogInComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

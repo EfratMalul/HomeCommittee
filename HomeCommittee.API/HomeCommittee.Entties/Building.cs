@@ -12,10 +12,10 @@ namespace HomeCommittee.Entties
        
         public string building { get; set; }
         public string address { get; set; }
-        public int ? number { get; set; }
+        public int  number { get; set; }
         public string city { get; set; }
-        public int ? entrance { get; set; }//כניסה
-        public int ?  zip_code { get; set; }
-        public int ? num_apartments { get; set; }
+        public int  entrance { get; set; }//כניסה
+        public int   zip_code { get; set; }
+        public int  num_apartments { get; set; }
     }
 }

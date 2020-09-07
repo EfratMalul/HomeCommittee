@@ -15,9 +15,9 @@ namespace HomeCommittee.DAL
     public partial class fault_tbl
     {
         public int id { get; set; }
-        public Nullable<int> user_id { get; set; }
+        public int user_id { get; set; }
         public string description { get; set; }
-        public Nullable<bool> status { get; set; }
+        public bool status { get; set; }
     
         public virtual user_tbl user_tbl { get; set; }
     }
