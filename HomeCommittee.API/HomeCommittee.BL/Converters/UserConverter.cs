@@ -21,9 +21,7 @@ namespace HomeCommittee.BL.Converters
             return new User() { id = u.id, password = u.password, user_name = u.user_name };
         }
 
-        //toDTO
-        //list
-
+       
         public static List<user_tbl> ListToDAL(List<User> list)
         {
             return list.Select(u => ToDAL(u)).ToList();
