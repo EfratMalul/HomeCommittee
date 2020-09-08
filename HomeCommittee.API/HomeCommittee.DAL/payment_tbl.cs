@@ -21,9 +21,9 @@ namespace HomeCommittee.DAL
         }
     
         public int id { get; set; }
-        public Nullable<int> building_id { get; set; }
-        public Nullable<double> sum { get; set; }
-        public Nullable<System.DateTime> date_payment { get; set; }
+        public int building_id { get; set; }
+        public double sum { get; set; }
+        public System.DateTime date_payment { get; set; }
     
         public virtual building_tbl building_tbl { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

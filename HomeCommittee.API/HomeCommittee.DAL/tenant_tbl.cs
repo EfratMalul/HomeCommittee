@@ -14,16 +14,16 @@ namespace HomeCommittee.DAL
     
     public partial class tenant_tbl
     {
-        public Nullable<int> user_id { get; set; }
+        public int user_id { get; set; }
         public string first_name { get; set; }
         public string last_name { get; set; }
-        public Nullable<int> floor { get; set; }
+        public int floor { get; set; }
         public string phone { get; set; }
         public string email { get; set; }
-        public Nullable<bool> type { get; set; }
-        public Nullable<int> house_num { get; set; }
+        public bool type { get; set; }
+        public int house_num { get; set; }
         public int id { get; set; }
-        public Nullable<int> building_id { get; set; }
+        public int building_id { get; set; }
     
         public virtual building_tbl building_tbl { get; set; }
         public virtual user_tbl user_tbl { get; set; }

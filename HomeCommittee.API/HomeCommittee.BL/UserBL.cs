@@ -25,5 +25,11 @@ namespace HomeCommittee.BL
         {
             return UserConverter.ToDTO(UserDAL.GetById(id));
         }
+
+        public static User GetByPassword(string user_name,string password)
+        {
+            return UserConverter.ToDTO(UserDAL.GetByPassword(user_name, password));
+        }
     }
+
 }

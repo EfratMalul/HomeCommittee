@@ -46,5 +46,14 @@ namespace HomeCommittee.DAL
             }
         }
 
+        public static user_tbl GetByPassword(string user_name,string password)
+        {
+            using (HomeCommitteeDBEntities db = new HomeCommitteeDBEntities())
+            {
+                return db.user_tbl.FirstOrDefault(u => u.password == password && u.user_name == user_name);
+
+            }
+        }
+
     }
 }

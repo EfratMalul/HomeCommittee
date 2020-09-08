@@ -27,11 +27,11 @@ namespace HomeCommittee.DAL
     
         public int id { get; set; }
         public string address { get; set; }
-        public Nullable<int> num { get; set; }
+        public int num { get; set; }
         public string city { get; set; }
-        public Nullable<int> entrance { get; set; }
-        public Nullable<int> zip_code { get; set; }
-        public Nullable<int> num_apartments { get; set; }
+        public int entrance { get; set; }
+        public int zip_code { get; set; }
+        public int num_apartments { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<expenditure_tbl> expenditure_tbl { get; set; }

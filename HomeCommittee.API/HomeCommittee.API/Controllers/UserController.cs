@@ -22,6 +22,10 @@ namespace HomeCommittee.API.Controllers
         {
             return UserBL.GetById(id);
         }
+        public User Get(string user_name,string password)
+        {
+            return UserBL.GetByPassword(user_name, password);
+        }
 
         // POST api/User
         public IHttpActionResult Post([FromBody]User u)
